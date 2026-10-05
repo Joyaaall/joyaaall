@@ -1,51 +1,64 @@
+<!-- ━━━━━━━━━━━━━━━━━━━ HERO ━━━━━━━━━━━━━━━━━━━ -->
+
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=260&color=0:1a1b27,50:7aa2f7,100:bb9af7&text=JOYAL.exe&fontColor=c0caf5&fontSize=72&animation=blinking&stroke=bb9af7&strokeWidth=1&desc=BUILD.%20AUTOMATE.%20SELF-HOST.&descSize=17&descAlignY=72" alt="Joyal.exe — Build. Automate. Self-host." />
+  <img
+    width="100%"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,45:164e63,100:22d3ee&height=240&section=header&text=JOYAL&fontSize=76&fontColor=f8fafc&animation=fadeIn&fontAlignY=38&desc=AI%20%2F%20AUTOMATION%20%2F%20SELF-HOSTING&descAlignY=59&descSize=16"
+    alt="Joyal — AI, automation, and self-hosting"
+  />
 </p>
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2600&pause=1200&color=9ECE6A&background=1A1B2700&center=true&vCenter=true&width=720&height=60&lines=%24+whoami+%E2%86%92+Joyal;%24+focus+%E2%86%92+AI+%2B+Automation;%24+deploy+%E2%86%92+Docker+%2B+Raspberry+Pi;%24+status+%E2%86%92+learning+by+building" alt="Animated terminal: Joyal, AI and automation, Docker and Raspberry Pi, learning by building" width="720" />
+### Less repetitive work. More things worth building.
 
-**Turning “I wish this existed” into a working project.**
+<img
+  src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2800&pause=1000&color=22D3EE&center=true&vCenter=true&width=650&height=55&lines=Building+AI+that+does+real+work.;Automating+the+repetitive+stuff.;Running+my+own+corner+of+the+internet."
+  alt="Building AI that does real work. Automating repetitive tasks. Running my own corner of the internet."
+  width="650"
+/>
+
+**CSE student · Python builder · Homelab tinkerer**
 
 <br/>
 
 <a href="https://github.com/Joyaaall?tab=repositories">
-  <img src="https://img.shields.io/badge/PROJECTS-bb9af7?style=for-the-badge&logo=github&logoColor=1a1b27" alt="Projects" />
-</a>
-&nbsp;
-<a href="https://github.com/Joyaaall/homelab">
-  <img src="https://img.shields.io/badge/HOMELAB-7aa2f7?style=for-the-badge&logo=raspberrypi&logoColor=1a1b27" alt="Homelab" />
+  <img src="https://img.shields.io/badge/EXPLORE_MY_WORK-22D3EE?style=for-the-badge&logo=github&logoColor=020617" alt="Explore my work"/>
 </a>
 &nbsp;
 <a href="mailto:joyalaliyas123@gmail.com">
-  <img src="https://img.shields.io/badge/CONTACT-9ece6a?style=for-the-badge&logo=gmail&logoColor=1a1b27" alt="Contact" />
+  <img src="https://img.shields.io/badge/LET'S_CONNECT-0F172A?style=for-the-badge&logo=gmail&logoColor=22D3EE" alt="Contact me"/>
+</a>
+&nbsp;
+<a href="https://github.com/Joyaaall/homelab">
+  <img src="https://img.shields.io/badge/INSIDE_MY_HOMELAB-0F172A?style=for-the-badge&logo=raspberrypi&logoColor=22D3EE" alt="Explore my homelab"/>
 </a>
 
 </div>
 
 <br/>
 
-## `~/about`
+<!-- ━━━━━━━━━━━━━━━━━━━ ABOUT ━━━━━━━━━━━━━━━━━━━ -->
 
-```console
-visitor@github:~$ cat joyal.conf
+## `01` / Behind the keyboard
 
-name        = Joyal
-education   = Computer Science Engineering
-college     = Adi Shankara Institute of Engineering and Technology
-interests   = AI agents, automation, software, self-hosting
-approach    = Build it. Run it. Understand it. Improve it.
-looking_for = AI/software internships and meaningful collaborations
-```
+I'm **Joyal**, a Computer Science Engineering student at **Adi Shankara Institute of Engineering and Technology**.
 
-I build Python applications, connect services with n8n, and experiment with AI agents.
+I enjoy taking an everyday problem and turning it into something usable: a Python application, an automated workflow, or a service running on my own server.
 
-When I'm not working on application code, I'm usually exploring how to run it on my own infrastructure. My Raspberry Pi homelab is where software meets containers, storage, networking, and the occasional debugging session.
+- 🧠 Exploring **AI agents** and practical automation.
+- ⚙️ Building with **Python, APIs, and n8n**.
+- 🖥️ Running a **Raspberry Pi homelab** with Docker.
+- 🌱 Developing a **non-invasive AC health-monitoring project**.
+- 🤝 Interested in **AI/software internships and project collaborations**.
+
+> I like understanding the whole journey—from the first line of code to the service running on a server.
 
 <br/>
 
-## `~/projects`
+<!-- ━━━━━━━━━━━━━━━━━━━ PROJECTS ━━━━━━━━━━━━━━━━━━━ -->
+
+## `02` / Things I'm building
 
 <table>
 <tr>
@@ -53,42 +66,30 @@ When I'm not working on application code, I'm usually exploring how to run it on
 
 ### 📊 Attendance Manager
 
-**Less attendance guesswork.**
+**A clearer view of student attendance.**
 
 An Etlab dashboard with attendance calculations, timetable management, semester discovery, and leave planning.
 
-Adapted from the RIT Etlab API, with upstream attribution included.
+Built on a modified version of the RIT Etlab API, with upstream attribution included in the project.
 
-<br/>
+`Python` `Flask` `JavaScript` `Docker`
 
-<img src="https://img.shields.io/badge/Python-1a1b27?style=flat-square&logo=python&logoColor=7aa2f7" alt="Python" />
-<img src="https://img.shields.io/badge/Flask-1a1b27?style=flat-square&logo=flask&logoColor=c0caf5" alt="Flask" />
-<img src="https://img.shields.io/badge/Docker-1a1b27?style=flat-square&logo=docker&logoColor=7aa2f7" alt="Docker" />
-
-<br/><br/>
-
-**[→ Open project](https://github.com/Joyaaall/automated-attendance-manager-for-Etlab)**
+**[Explore the project ↗](https://github.com/Joyaaall/automated-attendance-manager-for-Etlab)**
 
 </td>
 <td width="50%" valign="top">
 
-### 🖥️ Raspberry Pi Homelab
+### 🖥️ The Homelab
 
-**Beyond “it works on my machine.”**
+**My own corner of the internet.**
 
-A self-hosted environment for applications, automation, media, and learning how services fit together.
+A Raspberry Pi server for self-hosted applications, workflow automation, media services, and learning how systems fit together.
 
-Documenting the structure, not just collecting containers.
+Documenting the architecture—not just running containers.
 
-<br/>
+`Raspberry Pi` `Ubuntu` `Docker` `Tailscale`
 
-<img src="https://img.shields.io/badge/Linux-1a1b27?style=flat-square&logo=linux&logoColor=e0af68" alt="Linux" />
-<img src="https://img.shields.io/badge/Docker-1a1b27?style=flat-square&logo=docker&logoColor=7aa2f7" alt="Docker" />
-<img src="https://img.shields.io/badge/Raspberry_Pi-1a1b27?style=flat-square&logo=raspberrypi&logoColor=bb9af7" alt="Raspberry Pi" />
-
-<br/><br/>
-
-**[→ Explore the infrastructure](https://github.com/Joyaaall/homelab)**
+**[See the architecture ↗](https://github.com/Joyaaall/homelab)**
 
 </td>
 </tr>
@@ -97,28 +98,30 @@ Documenting the structure, not just collecting containers.
 
 ### 🌡️ AC Health Monitoring
 
-**Understand the machine from the outside.**
+**Understand the machine without opening it.**
 
-Developing a non-invasive monitoring concept for airflow, filter blockage, cooling performance, and energy use—without modifying the AC's internal wiring.
+Exploring an external sensor system for detecting airflow issues, filter blockage, cooling performance, and energy use.
 
-`Sensors` · `Monitoring` · `Prototyping`
+Designed around non-invasive monitoring rather than changes to the AC's internal wiring.
 
-**↳ Research and development**
+`Sensors` `Monitoring` `Prototyping`
+
+**Status: research and development**
 
 </td>
 <td width="50%" valign="top">
 
 ### ⚡ Automation Experiments
 
-**Give the repetitive work to a workflow.**
+**Make the repetitive parts disappear.**
 
-Exploring practical ways to connect Python, APIs, n8n, and AI agents.
+Exploring workflows that connect APIs, Python scripts, n8n, and AI agents to get useful work done.
 
-Useful inputs. Clear outputs. Fewer manual steps.
+The focus: practical tasks, clear outputs, and fewer manual steps.
 
-`Python` · `n8n` · `APIs` · `AI agents`
+`Python` `n8n` `APIs` `AI Agents`
 
-**↳ Learning through building**
+**Status: learning through building**
 
 </td>
 </tr>
@@ -126,102 +129,76 @@ Useful inputs. Clear outputs. Fewer manual steps.
 
 <br/>
 
-## `~/toolbox`
+<!-- ━━━━━━━━━━━━━━━━━━━ TOOLBOX ━━━━━━━━━━━━━━━━━━━ -->
 
-<div align="center">
+## `03` / My toolbox
 
-<img src="https://skillicons.dev/icons?i=python,flask,js,html,css,docker,linux,raspberrypi,git,github&theme=dark&perline=10" alt="Python, Flask, JavaScript, HTML, CSS, Docker, Linux, Raspberry Pi, Git, and GitHub" />
+<p align="center">
+  <img
+    src="https://skillicons.dev/icons?i=python,flask,js,html,css,docker,linux,raspberrypi,git,github&theme=dark&perline=10"
+    alt="Python, Flask, JavaScript, HTML, CSS, Docker, Linux, Raspberry Pi, Git, and GitHub"
+  />
+</p>
 
-<br/><br/>
-
-<img src="https://img.shields.io/badge/AUTOMATION-n8n-bb9af7?style=flat-square&labelColor=1a1b27" alt="Automation: n8n" />
-&nbsp;
-<img src="https://img.shields.io/badge/EXPLORING-AI_AGENTS-7aa2f7?style=flat-square&labelColor=1a1b27" alt="Exploring AI agents" />
-&nbsp;
-<img src="https://img.shields.io/badge/DEPLOYMENT-SELF_HOSTED-9ece6a?style=flat-square&labelColor=1a1b27" alt="Self-hosted deployment" />
-
-</div>
+<p align="center">
+  <strong>Code</strong> · Python & JavaScript
+  <br/>
+  <strong>Build</strong> · Flask & APIs
+  <br/>
+  <strong>Automate</strong> · n8n & AI agents
+  <br/>
+  <strong>Deploy</strong> · Docker, Linux & Raspberry Pi
+</p>
 
 <br/>
 
-## `~/homelab`
+<!-- ━━━━━━━━━━━━━━━━━━━ HOMELAB ━━━━━━━━━━━━━━━━━━━ -->
+
+## `04` / Beyond localhost
+
+Writing the application is only part of the fun. I also enjoy figuring out where it runs, how it stores data, and what happens when something breaks.
 
 ```text
-                         ┌───────────────────────┐
-                         │   MY DEVICES          │
-                         └───────────┬───────────┘
-                                     │
-                              Private network
-                                     │
-                         ┌───────────▼───────────┐
-                         │   RASPBERRY PI 5      │
-                         │   Ubuntu · Docker     │
-                         └───────────┬───────────┘
-                                     │
-                  ┌──────────────────┼──────────────────┐
-                  │                  │                  │
-          ┌───────▼───────┐  ┌───────▼───────┐  ┌───────▼───────┐
-          │  AUTOMATION   │  │  APPLICATIONS │  │  DATA         │
-          │  n8n          │  │  Self-hosted  │  │  Databases    │
-          │  Workflows    │  │  services     │  │  Storage      │
-          └───────────────┘  └───────────────┘  └───────────────┘
+                      MY HOMELAB
+                           │
+               Raspberry Pi 5 · Ubuntu
+                           │
+                   Docker + Compose
+                           │
+             ┌─────────────┼─────────────┐
+             │             │             │
+         Automation    Applications    Data
+             │             │             │
+            n8n        Self-hosted    Databases
+         Workflows       services     & storage
 ```
 
-**Currently learning:** container networking, persistent storage, monitoring, and recovery.
+**What I'm learning:** deployment, container networking, persistent storage, monitoring, and recovery.
 
 <br/>
 
-## `~/current-focus`
+<!-- ━━━━━━━━━━━━━━━━━━━ CONNECT ━━━━━━━━━━━━━━━━━━━ -->
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=2300&pause=1000&color=BB9AF7&background=1A1B2700&vCenter=true&width=760&height=50&lines=%3E+Building+useful+tools+with+Python;%3E+Connecting+APIs+and+automating+workflows;%3E+Exploring+practical+AI+agents;%3E+Learning+what+happens+after+deployment" alt="Building Python tools, automating workflows, exploring AI agents, and learning deployment" width="760" />
+## `05` / Let's build something useful
 
-- Improve the projects I already use.
-- Build automations around real problems.
-- Understand systems, not just individual tools.
-- Turn experiments into something someone else can run.
+I'm interested in projects where **AI, automation, and software meet a real problem**.
 
-<br/>
+If you're building something in that space—or looking for an intern who likes getting hands-on—I'd love to connect.
 
-<details>
-<summary><strong>▸ Open a little more context</strong></summary>
-
-<br/>
-
-### What I enjoy working on
-
-Projects where software interacts with something real: a student portal, a workflow, a server, or a sensor.
-
-### How I learn
-
-Build a small version, test it, find out what breaks, and improve it.
-
-### What I'm looking for
-
-AI/software internship opportunities and collaborations where I can contribute, learn, and ship useful work.
-
-</details>
+<p align="center">
+  <a href="mailto:joyalaliyas123@gmail.com">
+    <img src="https://img.shields.io/badge/SAY_HELLO-22D3EE?style=for-the-badge&logo=gmail&logoColor=020617" alt="Say hello"/>
+  </a>
+</p>
 
 <br/>
-
-## `~/connect`
-
-```console
-visitor@github:~$ ./start-conversation.sh
-
-> Have an idea, a project, or an internship opportunity?
-> Let's talk.
-```
 
 <div align="center">
-
-<a href="mailto:joyalaliyas123@gmail.com">
-  <img src="https://img.shields.io/badge/SEND_A_MESSAGE-bb9af7?style=for-the-badge&logo=gmail&logoColor=1a1b27" alt="Send a message" />
-</a>
-
-<br/><br/>
-
-<sub>Not everything needs AI. Some things just need a good script.</sub>
-
+  <sub>Learning by building. Improving by shipping.</sub>
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:7aa2f7,100:bb9af7&height=120&section=footer" alt="" />
+<img
+  width="100%"
+  src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,45:164e63,100:22d3ee&height=110&section=footer"
+  alt=""
+/>
