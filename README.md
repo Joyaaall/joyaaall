@@ -96,17 +96,7 @@ Documenting the architecture—not just running containers.
 <tr>
 <td width="50%" valign="top">
 
-### 🌡️ AC Health Monitoring
 
-**Understand the machine without opening it.**
-
-Exploring an external sensor system for detecting airflow issues, filter blockage, cooling performance, and energy use.
-
-Designed around non-invasive monitoring rather than changes to the AC's internal wiring.
-
-`Sensors` `Monitoring` `Prototyping`
-
-**Status: research and development**
 
 </td>
 <td width="50%" valign="top">
